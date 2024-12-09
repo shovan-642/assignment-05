@@ -1,0 +1,23 @@
+.color-01{
+    color: #111111;
+}
+
+
+.color-02{
+    color: rgba(17, 17, 17, 0.7);
+}
+.bg-color-01{
+    background-color: #B4F461;
+}
+
+.bg-color-02{
+    background-color: rgb(249, 247, 243);
+}
+
+.bg-color-03{
+    background-color: rgba(17, 17, 17, 0.05);
+}
+
+header{
+    z-index: 99999;
+}
