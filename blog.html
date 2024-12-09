@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <h1>this is blog</h1>
+<body class="w-10/12 mx-auto">
+   <header class="py-10">
+    <button class="btn bg-color-01 color-01"><a href="index.html">Home</a></button>
+   </header>
+   <main>
+        <h1 class="text-3xl font-extrabold mb-5">Important FAQ</h1>
+        <section>
+            <div class="accordion-section">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the Document object model (DOM)?</div>
+                    <div class="collapse-content">
+                      <p>The Document Object Model (DOM) is a way to represent a web page. It allows programs to change the content and structure of the page. The DOM makes web pages interactive.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">how do you select an element from the DOM?</div>
+                    <div class="collapse-content">
+                      <p>we can use: document.getElementbyId or document.getElementsbyTagName </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                    <div class="collapse-content">
+                      <p>Event delegation means adding one event listener to a parent. It handles events for all children. This saves time and makes it easier.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                    <div class="collapse-content">
+                      <p>Update an element's properties like src for an image. Modify an element's CSS, like setting the color to blue.</p>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+   </main>
+
+
+   <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
